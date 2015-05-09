@@ -16,6 +16,7 @@ Your job is to develop a web component that displays these variables following t
 
 The backend team has provided two test fixtures that you can use to start developing the feature. The first one, `variables.json`, contains the catalog of variables. The 2nd, `order.json` ,represents the order in which these variables should be displayed. For example, the following order defines a group "Net Promoter" that contains five variables ordered according to their position in the array:
 
+```json
 {
     "Net Promoter": [
         "1193e911122742be874251c7501f5b44/",
@@ -25,6 +26,7 @@ The backend team has provided two test fixtures that you can use to start develo
         "be6cb6b488fa4bcb9a0162bd7f3c3367/"
     ]
 }
+```
 
 Each id is mapped to an object `variables.json`.
 
