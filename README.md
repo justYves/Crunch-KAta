@@ -43,7 +43,7 @@ It goes without saying that automated testing is really important for us. We wan
 
 ##About the tools
 
-The only hard requirement we have is AngularJS.
+We only have one hard requirement: AngularJS.
 
 ##Deliverable
 
