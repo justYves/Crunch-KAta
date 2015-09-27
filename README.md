@@ -36,7 +36,7 @@ The deliverable should contain the following:
 
 1. An AngularJS directive that display the variables catalog following its hierarchical order. It should be easy to infer to which group a variable belongs, i.e.
     
-    ![](http://f.cl.ly/items/0I1S3i3r253A3d3B0z0n/Screen%20Shot%202015-05-11%20at%201.36.19%20PM.png)
+    ![HVL](https://raw.githubusercontent.com/Crunch-io/crunch-kata/master/hvl.png)
 
 2. A service that accepts a variable's name and returns the variable's position in the order.
 3. A service that accepts a position in the order and returns a variable.
