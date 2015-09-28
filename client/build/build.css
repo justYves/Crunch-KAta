@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box; }
+
+.navbar {
+  border-radius: 0; }
+
+.logo {
+  display: block;
+  margin-right: 7px;
+  margin-top: 8px;
+  width: 35px; }
+  @media (max-width: 768px) {
+    .logo {
+      margin-left: 15px; } }
+
+#home blockquote {
+  font-size: 14px;
+  font-style: italic; }
+
+#modules ul {
+  list-style: none;
+  padding-left: 0; }
