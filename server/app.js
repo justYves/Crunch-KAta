@@ -12,11 +12,6 @@ var buildPath = path.join(__dirname, '../client/build');    // for gulped files
 var indexHtmlPath = path.join(__dirname, './index.html');
 var imagePath = path.join(__dirname, './images');
 
-/*
-Meaniscule doesn't use Bower by default. To use Bower,
-uncomment the following line and the related `app.use` line below.
-*/
-// var bowerPath = path.join(__dirname, '../bower_components');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
