@@ -1,4 +1,4 @@
-app.controller('HomeController', function($scope, FixturesFactory) {
+app.controller('HomeController', function($scope, Fixtures) {
 
   // FixturesFactory.getOrder().then(function(data){
   //   $scope.order = data;

@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="en">
+
 <head>
     <base href="/" />
     <title>Crunch Kata - Yves Yuen</title>
-
     <link rel="icon" type="image/ico" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
     <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css" />
-
     <link rel="stylesheet" type="text/css" href="build.css" />
-
     <script src="/jquery/dist/jquery.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.js"></script>
     <script src="/angular/angular.js"></script>
@@ -19,8 +17,21 @@
 </head>
 
 <body ng-app="CrunchKata">
-    <navbar></navbar>
-    <ui-view></ui-view>
+    <div class="row">
+        <div class="container">
+            <h1>Crunch Kata</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <navbar></navbar>
+        </div>
+        <div class="col-sm-9">
+            <div class="container">
+                <ui-view></ui-view>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
