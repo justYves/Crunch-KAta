@@ -10,7 +10,7 @@ var nodeModulesPath = path.join(__dirname, '../node_modules/');
 var clientPath = path.join(__dirname, '../client');
 var buildPath = path.join(__dirname, '../client/build');    // for gulped files
 var indexHtmlPath = path.join(__dirname, './index.html');
-var imagePath = path.join(__dirname, './images');
+var testPath = path.join(__dirname, '../test');
 
 
 app.use(logger('dev'));
@@ -20,7 +20,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(nodeModulesPath));
 app.use(express.static(clientPath));
 app.use(express.static(buildPath));
-app.use(express.static(imagePath));
+app.use(express.static(testPath));
+
 
 
 
