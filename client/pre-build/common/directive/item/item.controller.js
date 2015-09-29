@@ -6,5 +6,8 @@ app.controller('ItemController', function($scope, Fixtures) {
             return $scope.variables[id].name
         };
     });
+
+    $scope.isCollapsed = true;
+
 });
 

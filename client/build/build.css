@@ -1,21 +1,30 @@
 * {
   box-sizing: border-box; }
 
+body {
+  background-color: #f7f7f7; }
+
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  .sidebar-nav .navbar .navbar-collapse {
+  navbar .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none; }
-  .sidebar-nav .navbar ul {
+  navbar .sidebar-nav .navbar ul {
     float: none; }
-  .sidebar-nav .navbar ul:not {
+  navbar .sidebar-nav .navbar ul:not {
     display: block; }
-  .sidebar-nav .navbar li {
+  navbar .sidebar-nav .navbar li {
     float: none;
     display: block; }
-  .sidebar-nav .navbar li a {
+  navbar .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px; } }
+
+.navbar.navbar-inverse {
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-radius: 0; }
 
 #home blockquote {
   font-size: 14px;
