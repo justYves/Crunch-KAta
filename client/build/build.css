@@ -18,15 +18,29 @@ body {
     display: block; }
   navbar .sidebar-nav .navbar li a {
     padding-top: 12px;
-    padding-bottom: 12px; } }
+    padding-bottom: 12px; }
+  navbar .navbar.navbar-inverse {
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-radius: 0;
+    min-height: 100vh; } }
 
-navbar .navbar.navbar-inverse {
-  border-right: 0px;
-  border-bottom: 0px;
-  border-top: 0px;
-  border-radius: 0;
-  min-height: 100vh; }
+navbar #nav-title {
+  color: #f7f7f7; }
+
+i {
+  color: #52A3CB; }
+
+.badge {
+  background-color: #52A3CB; }
 
 #home blockquote {
   font-size: 14px;
   font-style: italic; }
+
+section#home {
+  border: dashed 3px black; }
+
+#var-key {
+  color: #52A3CB; }

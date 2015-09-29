@@ -1,13 +1,27 @@
-<section id="home">
-  <div class="row">
-    <div class="input-group">
-        <input type="text" class="form-control" ng-model="query" placeholder="Search for...">
-        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-    </div>
+<div class="container">
+    <span ng-show="!selectedVar">
+        <strong>
+            <h4> {{welcomeMsg}}</h4>
+        </strong>
+    </span>
+    <section id="home" ng-show="!!selectedVar">
+        <!--         <div class="row">
+            <div class="input-group">
+                <input type="text" class="form-control" ng-model="query" placeholder="Search for...">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+            </div>
+        </div> -->
+        <!--         <pre> {{selectedVar}}</pre> -->
+        <!-- <div class="row"> -->
+        <!--         </div> -->
+        <div class="row" ng-repeat="(key,value) in selectedVar">
+            <div class="col-sm-3 text-right">
+                <strong> <h4 id="var-key"> {{key}} </h4></strong>
+            </div>
+            <div class="col-sm-9">
+                <h4> {{value}}</h4>
+            </div>
+            <hr/>
+        </div>
+    </section>
 </div>
-
-<pre> {{selectedVar}}</pre>
-
-
-
-</section>

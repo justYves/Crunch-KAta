@@ -7,3 +7,13 @@
 // .navbar-inverse .navbar-nav > li > a:active{
 //   color:red;
 // }
+//
+$crunchBlue: #52A3CB;
+
+i {
+  color: $crunchBlue;
+}
+
+.badge {
+  background-color: $crunchBlue;
+}

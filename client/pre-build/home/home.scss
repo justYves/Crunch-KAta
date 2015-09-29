@@ -1,6 +1,17 @@
+
+$crunchBlue: #52A3CB;
+
 #home {
   blockquote {
     font-size: 14px;
     font-style: italic;
   }
+}
+
+section#home {
+  border: dashed 3px black;
+}
+
+#var-key{
+  color: $crunchBlue;
 }
